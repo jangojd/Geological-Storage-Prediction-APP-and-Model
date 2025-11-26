@@ -1,2 +1,59 @@
-# Geological-Storage-Prediction-APP-and-Model
-This Repository is intended for the work on ML model for the geological storage prediction and deployment of App on streamlit
+# 🏔️ Geological Storage Capacity Prediction App  
+Built with **Streamlit** & **Scikit-learn**  
+Predicting **CO₂ geological storage capacity** using machine learning.
+
+---
+
+## 📸 App Interface
+
+![App Screenshot](assets/app_screenshot.png)
+
+> *(Place your screenshot inside a folder named `assets/` in your repo.)*
+
+---
+
+## 📘 Project Overview
+This web application allows users to predict **CO₂ geological storage capacity** based on reservoir and rock characteristics.  
+It uses a **Linear Regression model**, trained on realistic geological parameters.
+
+The app supports:
+- 🔹 **Single prediction**  
+- 🔹 **Batch prediction (CSV)**  
+- 🔹 **Model status display**  
+- 🔹 **User-friendly sliders & UI**  
+
+---
+
+## 🧠 Machine Learning Model  
+- **Model Type:** Linear Regression  
+- **Input Features:**  
+  - Porosity  
+  - Permeability  
+  - Depth  
+  - Pressure  
+  - Temperature  
+- **Output:** Predicted CO₂ storage capacity (tonnes)
+
+---
+
+## 🚀 Live Demo  
+🔗 **Streamlit App:**  
+https://geological-storage-prediction-app-and-model-c9qnw8buwtwwhgvaen.streamlit.app/
+
+---
+
+## 📁 Project Structure
+📦 Geological-Storage-Prediction
+├── App.py
+├── geological_storage_linear_regression_model.pkl
+├── Geological_Storage_prediction.ipynb
+├── requirements.txt
+└── assets/
+└── app_screenshot.png
+
+---
+## Install dependencies
+pip install -r requirements.txt
+
+
+
