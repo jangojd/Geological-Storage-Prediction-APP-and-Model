@@ -8,7 +8,6 @@ Predicting **CO₂ geological storage capacity** using machine learning.
 
 ![image alt ](https://github.com/jangojd/Geological-Storage-Prediction-APP-and-Model/blob/5cd6ad3b8b5fef7c74193bc4936ae2661ea82b7c/Screenshot%20(8).png)
 
-> *(Place your screenshot inside a folder named `assets/` in your repo.)*
 
 ---
 
