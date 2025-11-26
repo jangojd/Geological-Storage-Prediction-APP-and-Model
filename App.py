@@ -101,7 +101,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("### 🔗 Resources")
-    st.markdown("- 📓 [View Notebook](https://github.com/YOUR_USERNAME/geological-storage-ml)")
+    st.markdown("- 📓 [View Notebook](https://github.com/jangojd/Geological-Storage-Prediction-APP-and-Model/blob/main/Geological_Storage_prediction.ipynb)")
     st.markdown("- 💻 [GitHub Repo](https://github.com/YOUR_USERNAME/geological-storage-ml)")
 
 # Main content
@@ -223,9 +223,9 @@ if model is not None:
                     st.markdown("---")
                     st.subheader("💡 Interpretation")
                     
-                    if prediction > 300:
+                    if prediction > 2000:
                         st.success("✅ **High Storage Capacity**: This reservoir shows excellent potential for CO2 storage.")
-                    elif prediction > 150:
+                    elif prediction > 1500:
                         st.info("ℹ️ **Moderate Storage Capacity**: This reservoir has good potential for CO2 storage.")
                     else:
                         st.warning("⚠️ **Low Storage Capacity**: This reservoir may have limited CO2 storage potential.")
