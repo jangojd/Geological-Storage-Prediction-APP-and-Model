@@ -103,6 +103,7 @@ with st.sidebar:
     st.markdown("### 🔗 Resources")
     st.markdown("- 📓 [View Notebook](https://github.com/jangojd/Geological-Storage-Prediction-APP-and-Model/blob/main/Geological_Storage_prediction.ipynb)")
     st.markdown("- 💻 [GitHub Repo](https://github.com/YOUR_USERNAME/geological-storage-ml)")
+    st.markdown("**👨‍💻 Author:** Jawad Ali")
 
 # Main content
 if model is not None:
