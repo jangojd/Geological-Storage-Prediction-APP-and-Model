@@ -224,9 +224,9 @@ if model is not None:
                     st.markdown("---")
                     st.subheader("💡 Interpretation")
                     
-                    if prediction > 2000:
+                    if prediction > 30000:
                         st.success("✅ **High Storage Capacity**: This reservoir shows excellent potential for CO2 storage.")
-                    elif prediction > 1500:
+                    elif prediction > 15000:
                         st.info("ℹ️ **Moderate Storage Capacity**: This reservoir has good potential for CO2 storage.")
                     else:
                         st.warning("⚠️ **Low Storage Capacity**: This reservoir may have limited CO2 storage potential.")
