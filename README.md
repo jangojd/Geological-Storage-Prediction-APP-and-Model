@@ -3,7 +3,8 @@ Built with **Streamlit** & **Scikit-learn**
 Predicting **CO₂ geological storage capacity** using machine learning.
 
 ---
-
+## Try App: 
+app: https://geological-storage-prediction-app-and-model-c9qnw8buwtwwhgvaen.streamlit.app/
 ## 📸 App Interface
 
 ![image alt ](https://github.com/jangojd/Geological-Storage-Prediction-APP-and-Model/blob/5cd6ad3b8b5fef7c74193bc4936ae2661ea82b7c/Screenshot%20(8).png)
